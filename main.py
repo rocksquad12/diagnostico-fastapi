@@ -21,7 +21,7 @@ app.add_middleware(
 
 # Cargar modelo
 print("Cargando modelo...")
-model = load_model("modelo_skinv3.h5")
+model = load_model("skin_cancer_model.h5")
 print("Modelo cargado")
 
 # Preprocesamiento de imagen

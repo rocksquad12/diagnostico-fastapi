@@ -1,7 +1,8 @@
-fastapi
-uvicorn
-tensorflow
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+tensorflow>=2.9.0
+numpy>=1.19.5
+opencv-python>=4.5.0
+Pillow>=8.0.0
 python-multipart
-pillow
-numpy
-uvicorn[standard]
+
